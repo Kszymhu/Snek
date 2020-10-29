@@ -64,3 +64,6 @@ UpdateFreeCoords() which goes through every position in wallCoords and checks if
 and then updates freeCoords accordingly.
 UpdateMiceCoords(), while worldGenerator.miceCoords.Count < miceTarget, adds new mice by choosing random positions from worldGenerator.freeCoords.
 UpdateSegmentCoords(List<Vector2Int> segmentCoords) assigns segmentCoords to worldGenerator.segmentCoords
+
+
+
